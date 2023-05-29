@@ -5,12 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GitTraining"
         mc:Ignorable="d"
-        Title="Форма Даниила" Height="450" Width="800">
+        Title="Форма Даниила" Height="450" Width="800" Background="#FFC7EEA6" Foreground="Black">
     <Grid>
         <TextBlock VerticalAlignment="Top"
                    HorizontalAlignment="Center"
                    FontSize="30"
                    FontWeight="Bold"
                    FontStyle="Italic">Форма Даниила</TextBlock>
+        <Label VerticalAlignment="Bottom" HorizontalAlignment="Center" FontSize="40" Margin="0 0 0 100" FontFamily="Times New Roman">
+            <Label.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF7B9B10" Offset="0.013"/>
+                    <GradientStop Color="#FF719E21" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Background>
+            Добро пожаловать
+        </Label>
+        <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="300" Height="200" Margin="300 0 0 150">
+            <Image Source=".\Image\keep-calm-and-study-hard.jpg"></Image>
+        </StackPanel>
     </Grid>
 </Window>
