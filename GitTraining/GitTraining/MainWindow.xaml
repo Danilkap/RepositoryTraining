@@ -19,7 +19,7 @@
                     <GradientStop Color="#FF719E21" Offset="1"/>
                 </LinearGradientBrush>
             </Label.Background>
-            Добро пожаловать
+            Добро пожаловать!
         </Label>
         <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="300" Height="200" Margin="300 0 0 150">
             <Image Source=".\Image\keep-calm-and-study-hard.jpg"></Image>
